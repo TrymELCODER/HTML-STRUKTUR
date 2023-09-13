@@ -1,0 +1,63 @@
+@import url('/Fonts/Poppins-Bold.ttf');
+
+@media only screen and (max-device-width: 1366px) {
+    .example {
+        background-attachment: scroll;
+   }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+
+ .parallaxImage1 {
+    background-image: url("/Images/wendigo\ para.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .parallaxImage2 {
+    background-image: url("/Images/wen2.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .parallaxImage3 {
+    background-image: url("/Images/win3.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
